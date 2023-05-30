@@ -1,29 +1,225 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[ITC4]]>
+    </line>
+    <line>
+      <![CDATA[itc6]]>
+    </line>
+    <line>
+      <![CDATA[STC4]]>
+    </line>
+    <line>
+      <![CDATA[ftc1]]>
+    </line>
+    <line>
+      <![CDATA[ftc2]]>
+    </line>
+    <line>
+      <![CDATA[ftc3]]>
+    </line>
+    <line>
+      <![CDATA[ftc4]]>
+    </line>
+    <line>
+      <![CDATA[ftc5]]>
+    </line>
+    <line>
+      <![CDATA[ftc6]]>
+    </line>
+    <line>
+      <![CDATA[Itc1]]>
+    </line>
+    <line>
+      <![CDATA[Itc2]]>
+    </line>
+    <line>
+      <![CDATA[ITC3]]>
+    </line>
+    <line>
+      <![CDATA[ITC5]]>
+    </line>
+    <line>
+      <![CDATA[stc1]]>
+    </line>
+    <line>
+      <![CDATA[stc2]]>
+    </line>
+    <line>
+      <![CDATA[stc3]]>
+    </line>
+    <line>
+      <![CDATA[stc5]]>
+    </line>
+    <line>
+      <![CDATA[stc6]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-05-22T19:24:48 IST" name="Suite" finished-at="2023-05-22T19:26:04 IST" duration-ms="76036">
+  <suite started-at="2023-05-27T09:46:27 IST" name="Suite" finished-at="2023-05-27T09:46:27 IST" duration-ms="120">
     <groups>
+      <group name="SMOKE testing">
+        <method signature="Flag7.St4()[pri:0, instance:testNGFlags.Flag7@696da30b]" name="St4" class="testNGFlags.Flag7"/>
+        <method signature="Flag7.st6()[pri:0, instance:testNGFlags.Flag7@696da30b]" name="st6" class="testNGFlags.Flag7"/>
+      </group> <!-- SMOKE testing -->
+      <group name="functional testing">
+        <method signature="Flag7.ft1()[pri:0, instance:testNGFlags.Flag7@696da30b]" name="ft1" class="testNGFlags.Flag7"/>
+        <method signature="Flag7.ft2()[pri:0, instance:testNGFlags.Flag7@696da30b]" name="ft2" class="testNGFlags.Flag7"/>
+        <method signature="Flag7.ft3()[pri:0, instance:testNGFlags.Flag7@696da30b]" name="ft3" class="testNGFlags.Flag7"/>
+        <method signature="Flag7.ft4()[pri:0, instance:testNGFlags.Flag7@696da30b]" name="ft4" class="testNGFlags.Flag7"/>
+        <method signature="Flag7.ft5()[pri:0, instance:testNGFlags.Flag7@696da30b]" name="ft5" class="testNGFlags.Flag7"/>
+        <method signature="Flag7.ft6()[pri:0, instance:testNGFlags.Flag7@696da30b]" name="ft6" class="testNGFlags.Flag7"/>
+      </group> <!-- functional testing -->
+      <group name="integration testing">
+        <method signature="Flag7.it3()[pri:0, instance:testNGFlags.Flag7@696da30b]" name="it3" class="testNGFlags.Flag7"/>
+      </group> <!-- integration testing -->
+      <group name="integretion testing">
+        <method signature="Flag7.It4()[pri:0, instance:testNGFlags.Flag7@696da30b]" name="It4" class="testNGFlags.Flag7"/>
+        <method signature="Flag7.it1()[pri:0, instance:testNGFlags.Flag7@696da30b]" name="it1" class="testNGFlags.Flag7"/>
+      </group> <!-- integretion testing -->
+      <group name="smoke testing">
+        <method signature="Flag7.st1()[pri:0, instance:testNGFlags.Flag7@696da30b]" name="st1" class="testNGFlags.Flag7"/>
+        <method signature="Flag7.st2()[pri:0, instance:testNGFlags.Flag7@696da30b]" name="st2" class="testNGFlags.Flag7"/>
+      </group> <!-- smoke testing -->
+      <group name="Integretion testing">
+        <method signature="Flag7.It6()[pri:0, instance:testNGFlags.Flag7@696da30b]" name="It6" class="testNGFlags.Flag7"/>
+        <method signature="Flag7.it2()[pri:0, instance:testNGFlags.Flag7@696da30b]" name="it2" class="testNGFlags.Flag7"/>
+        <method signature="Flag7.it5()[pri:0, instance:testNGFlags.Flag7@696da30b]" name="it5" class="testNGFlags.Flag7"/>
+      </group> <!-- Integretion testing -->
+      <group name="Smoke testing">
+        <method signature="Flag7.st3()[pri:0, instance:testNGFlags.Flag7@696da30b]" name="st3" class="testNGFlags.Flag7"/>
+        <method signature="Flag7.st5()[pri:0, instance:testNGFlags.Flag7@696da30b]" name="st5" class="testNGFlags.Flag7"/>
+      </group> <!-- Smoke testing -->
     </groups>
-    <test started-at="2023-05-22T19:24:48 IST" name="Test" finished-at="2023-05-22T19:26:04 IST" duration-ms="76036">
-      <class name="testNGpack2.Test2">
-        <test-method signature="f()[pri:0, instance:testNGpack2.Test2@272ed83b]" started-at="2023-05-22T19:25:33 IST" name="f" finished-at="2023-05-22T19:25:46 IST" duration-ms="13304" status="PASS">
+    <test started-at="2023-05-27T09:46:27 IST" name="Test" finished-at="2023-05-27T09:46:27 IST" duration-ms="120">
+      <class name="testNGFlags.Flag7">
+        <test-method signature="It4()[pri:0, instance:testNGFlags.Flag7@696da30b]" started-at="2023-05-27T09:46:27 IST" name="It4" finished-at="2023-05-27T09:46:27 IST" duration-ms="15" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[ITC4]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- testNGpack2.Test2 -->
-      <class name="testNGpack2.Test3">
-        <test-method signature="f()[pri:0, instance:testNGpack2.Test3@41fecb8b]" started-at="2023-05-22T19:25:46 IST" name="f" finished-at="2023-05-22T19:26:04 IST" duration-ms="18079" status="PASS">
+        </test-method> <!-- It4 -->
+        <test-method signature="It6()[pri:0, instance:testNGFlags.Flag7@696da30b]" started-at="2023-05-27T09:46:27 IST" name="It6" finished-at="2023-05-27T09:46:27 IST" duration-ms="6" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[itc6]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- testNGpack2.Test3 -->
-      <class name="testNGpack2.Test1">
-        <test-method signature="testMehod()[pri:0, instance:testNGpack2.Test1@34f7cfd9]" started-at="2023-05-22T19:24:48 IST" name="testMehod" finished-at="2023-05-22T19:25:33 IST" duration-ms="44585" status="PASS">
+        </test-method> <!-- It6 -->
+        <test-method signature="St4()[pri:0, instance:testNGFlags.Flag7@696da30b]" started-at="2023-05-27T09:46:27 IST" name="St4" finished-at="2023-05-27T09:46:27 IST" duration-ms="3" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[STC4]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- testMehod -->
-      </class> <!-- testNGpack2.Test1 -->
+        </test-method> <!-- St4 -->
+        <test-method signature="ft1()[pri:0, instance:testNGFlags.Flag7@696da30b]" started-at="2023-05-27T09:46:27 IST" name="ft1" finished-at="2023-05-27T09:46:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ftc1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ft1 -->
+        <test-method signature="ft2()[pri:0, instance:testNGFlags.Flag7@696da30b]" started-at="2023-05-27T09:46:27 IST" name="ft2" finished-at="2023-05-27T09:46:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ftc2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ft2 -->
+        <test-method signature="ft3()[pri:0, instance:testNGFlags.Flag7@696da30b]" started-at="2023-05-27T09:46:27 IST" name="ft3" finished-at="2023-05-27T09:46:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ftc3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ft3 -->
+        <test-method signature="ft4()[pri:0, instance:testNGFlags.Flag7@696da30b]" started-at="2023-05-27T09:46:27 IST" name="ft4" finished-at="2023-05-27T09:46:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ftc4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ft4 -->
+        <test-method signature="ft5()[pri:0, instance:testNGFlags.Flag7@696da30b]" started-at="2023-05-27T09:46:27 IST" name="ft5" finished-at="2023-05-27T09:46:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ftc5]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ft5 -->
+        <test-method signature="ft6()[pri:0, instance:testNGFlags.Flag7@696da30b]" started-at="2023-05-27T09:46:27 IST" name="ft6" finished-at="2023-05-27T09:46:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ftc6]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ft6 -->
+        <test-method signature="it1()[pri:0, instance:testNGFlags.Flag7@696da30b]" started-at="2023-05-27T09:46:27 IST" name="it1" finished-at="2023-05-27T09:46:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Itc1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- it1 -->
+        <test-method signature="it2()[pri:0, instance:testNGFlags.Flag7@696da30b]" started-at="2023-05-27T09:46:27 IST" name="it2" finished-at="2023-05-27T09:46:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Itc2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- it2 -->
+        <test-method signature="it3()[pri:0, instance:testNGFlags.Flag7@696da30b]" started-at="2023-05-27T09:46:27 IST" name="it3" finished-at="2023-05-27T09:46:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ITC3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- it3 -->
+        <test-method signature="it5()[pri:0, instance:testNGFlags.Flag7@696da30b]" started-at="2023-05-27T09:46:27 IST" name="it5" finished-at="2023-05-27T09:46:27 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ITC5]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- it5 -->
+        <test-method signature="st1()[pri:0, instance:testNGFlags.Flag7@696da30b]" started-at="2023-05-27T09:46:27 IST" name="st1" finished-at="2023-05-27T09:46:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[stc1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- st1 -->
+        <test-method signature="st2()[pri:0, instance:testNGFlags.Flag7@696da30b]" started-at="2023-05-27T09:46:27 IST" name="st2" finished-at="2023-05-27T09:46:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[stc2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- st2 -->
+        <test-method signature="st3()[pri:0, instance:testNGFlags.Flag7@696da30b]" started-at="2023-05-27T09:46:27 IST" name="st3" finished-at="2023-05-27T09:46:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[stc3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- st3 -->
+        <test-method signature="st5()[pri:0, instance:testNGFlags.Flag7@696da30b]" started-at="2023-05-27T09:46:27 IST" name="st5" finished-at="2023-05-27T09:46:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[stc5]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- st5 -->
+        <test-method signature="st6()[pri:0, instance:testNGFlags.Flag7@696da30b]" started-at="2023-05-27T09:46:27 IST" name="st6" finished-at="2023-05-27T09:46:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[stc6]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- st6 -->
+      </class> <!-- testNGFlags.Flag7 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

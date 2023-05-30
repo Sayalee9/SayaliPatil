@@ -15,7 +15,9 @@ public class Test3 {
 		WebDriver driver= new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30)); 
+		
 		driver.get("https://www.google.com");
+		
 		driver.switchTo().activeElement().sendKeys("Selenium" ,Keys.ENTER);
 		
 		
